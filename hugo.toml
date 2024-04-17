@@ -1,3 +1,49 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://fabianwittel.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Fabian Wittel'
+theme = 'hugo-split-theme'
+
+copyright = "&copy;2024"
+
+[params.custom.css]
+  enable = true
+
+# Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+        enable = true
+        file = "images/fabian.jpg"
+        position = "center center"
+
+# Links
+
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Skills"
+
+      [[params.links.list1.link]]
+        text = "Strategy: Board moderation, workshop facilitation up to 500 participants, agile methodologies"
+
+      [[params.links.list1.link]]
+        text = "Technologies: node.js, d3.js, firebase, GenAI"
+        url = "#"
+
+      [[params.links.list1.link]]
+        text = "Languages: C2 English, C2 German, A2 Chinese"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Connect"
+
+      [[params.links.list2.link]]
+        text = "Email"
+        url = "mailto:mail@fabianwittel.com"
+
+      [[params.links.list2.link]]
+        text = "LinkedIn"
+        url = "https://linkedin.com/in/fabianwittel"
+        new_tab = true
