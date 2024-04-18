@@ -3,9 +3,10 @@ baseURL = 'https://fabianwittel.com/'
 languageCode = 'en-us'
 title = 'Fabian Wittel'
 theme = 'hugo-split-theme'
-
-# Favicon
-  favicon = "favicon.png"
+disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
+disableHugoGeneratorInject = true
+favicon = "favicon.png"
+copyright = "&copy;2024 Fabian Wittel"
 
 # Generation settings
 [params.custom.css]
@@ -13,10 +14,9 @@ theme = 'hugo-split-theme'
 
 # Local preview mode
   relativeURLs = true
-  uglyURLs = true
+  uglyURLs = true  
 
-# Copyright
-  copyright = "&copy;2024 Fabian Wittel"
+[params]
 
 # Metadata for search engines and social sharing
   author = "Fabian Wittel"
@@ -25,7 +25,6 @@ theme = 'hugo-split-theme'
 
 # Section - Visual
   [params.visual]
-
     # Image
     [params.visual.image]
         enable = true
