@@ -1,12 +1,27 @@
+# Site settings
 baseURL = 'https://fabianwittel.com/'
 languageCode = 'en-us'
 title = 'Fabian Wittel'
 theme = 'hugo-split-theme'
 
-copyright = "&copy;2024"
+# Favicon
+  favicon = "favicon.png"
 
+# Generation settings
 [params.custom.css]
   enable = true
+
+# Local preview mode
+  relativeURLs = true
+  uglyURLs = true
+
+# Copyright
+  copyright = "&copy;2024 Fabian Wittel"
+
+# Metadata for search engines and social sharing
+  author = "Fabian Wittel"
+  description = "Fabian is a founder, a strategist and a developer - open for work!"
+  shareImage = "images/fabian.jpg"
 
 # Section - Visual
   [params.visual]
@@ -29,7 +44,6 @@ copyright = "&copy;2024"
 
       [[params.links.list1.link]]
         text = "Technologies: node.js, d3.js, firebase, GenAI"
-        url = "#"
 
       [[params.links.list1.link]]
         text = "Languages: C2 English, C2 German, A2 Chinese"
