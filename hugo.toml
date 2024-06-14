@@ -46,6 +46,11 @@ copyright = "&copy;2024 Fabian Wittel"
 
       [[params.links.list1.link]]
         text = "Languages: C2 English, C2 German, A2 Chinese"
+      
+      [[params.links.list1.link]]
+        text = "Details? Check my CV"
+        url = "./CV.pdf"
+        new_tab = true
 
   # Links List #2
   [[params.links]]
